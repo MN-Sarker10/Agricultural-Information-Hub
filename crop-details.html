@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agriculture Hub</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+
+    <header id="header-section" class="bg-success sticky-top">
+        <nav class="navbar navbar-expand-lg px-3">
+            <div class="container-fluid">
+                <!-- Logo + Brand Name -->
+                <a class="navbar-brand fw-bold text-light d-flex align-items-center gap-2" href="index.html">
+                    <!-- Option A: FontAwesome Icon Logo -->
+                    <i class="fa-solid fa-wheat-awn fs-3 text-warning"></i>
+
+                    <!-- Option B: Custom Image Logo (Image থাকলে নিচের লাইনটি অন করুন) -->
+                    <!-- <img src="./assets/img/logo.png" alt="Logo" height="35" class="d-inline-block"> -->
+
+                    <span>Agriculture Hub</span>
+                </a>
+
+                <!-- Mobile Toggle Button -->
+                <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold gap-lg-2">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="farming-guides.html">Farming Guides</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" href="crop-details.html">Crop Details</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="pest-control.html">Pest Control</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="contact-form.html">Contact Form</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Breadcrumb Section Start -->
+    <section id="breadcrumb-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="text-center">
+                    <h2 class="text-light">Crop Details</h2>
+                </div>
+                <div class="text-center">
+                    <a class="text-decoration-none text-light fs-5" href="index.html"><i class="bi bi-house-door"></i>
+                        Home</a>
+                    <span class="text-light fs-5"> / </span>
+                    <a class="text-decoration-none text-light fs-5" href="crop-details.html">Crop Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 1: Crop Details (Seasons & Varieties) -->
+    <section id="crop-details-section" class="py-5 bg-light">
+        <div class="container-fluid">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-success mb-3">Crop Details & Seasons</h2>
+                <p class="text-muted mx-auto" style="max-width: 750px;">
+                    Crops are essential plants cultivated for food, fiber, and fuel. In Bangladesh, agriculture heavily
+                    relies on seasonal cycles—ranging from monsoon crops to winter harvests.
+                </p>
+            </div>
+
+            <!-- Row 1: Kharif Crop Season -->
+            <div class="row align-items-center crop-detail-row mb-4">
+                <div class="col-lg-6 mb-3 mb-lg-0">
+                    <div class="crop-img-box overflow-hidden">
+                        <img class="w-100 shadow-sm" src="./assets/img/crop-details-section bg-1.jpg"
+                            alt="Monsoon Crops">
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-4">
+                    <span class="badge bg-success mb-2 px-3 py-2">Monsoon Season</span>
+                    <h3 class="fw-bold text-dark">Mid-July to Mid-November (Kharif)</h3>
+                    <p class="text-muted">
+                        Cultivated primarily during the rainy season. Major crops in this period include Aus and Aman
+                        rice varieties, along with jute, requiring abundant water and sunlight for optimal growth.
+                    </p>
+                    <a href="#" class="btn btn-success rounded-pill px-4 mt-2">Read Detailed Guide</a>
+                </div>
+            </div>
+
+            <!-- Row 2: Rabi Crop Season (Alternate Layout) -->
+            <div class="row align-items-center crop-detail-row mb-4">
+                <div class="col-lg-6 order-lg-2 mb-3 mb-lg-0">
+                    <div class="crop-img-box overflow-hidden">
+                        <img class="w-100 shadow-sm" src="./assets/img/crop-details-section bg-2.jpg"
+                            alt="Winter Crops">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1 pe-lg-4">
+                    <span class="badge bg-warning text-dark mb-2 px-3 py-2">Winter Season</span>
+                    <h3 class="fw-bold text-dark">Mid-November to Mid-March (Rabi)</h3>
+                    <p class="text-muted">
+                        Grown in cooler temperatures with controlled irrigation. Key crops include Boro rice, wheat,
+                        pulses (lentils), mustard, and a wide variety of fresh winter vegetables.
+                    </p>
+                    <a href="#" class="btn btn-success rounded-pill px-4 mt-2">Read Detailed Guide</a>
+                </div>
+            </div>
+
+            <!-- Row 3: Cropping Cycles -->
+            <div class="row align-items-center crop-detail-row">
+                <div class="col-lg-6 mb-3 mb-lg-0">
+                    <div class="crop-img-box overflow-hidden">
+                        <img class="w-100 shadow-sm" src="./assets/img/crop-details-section bg-3.jpg"
+                            alt="Cropping Seasons">
+                    </div>
+                </div>
+                <div class="col-lg-6 ps-lg-4">
+                    <span class="badge bg-info text-dark mb-2 px-3 py-2">Year-Round Planning</span>
+                    <h3 class="fw-bold text-dark">Cropping Patterns & Climate</h3>
+                    <p class="text-muted">
+                        Regional temperature, seasonal rainfall, and sunlight direct what plants thrive. Proper crop
+                        rotation ensures long-term soil fertility and minimizes pest infestation.
+                    </p>
+                    <a href="#" class="btn btn-success rounded-pill px-4 mt-2">Read Detailed Guide</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Section 2: Planning Your Crop Details / Farming Types -->
+    <section id="farming-types" class="py-5">
+        <div class="container-fluid">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-success mb-3">Modern Agricultural Methods</h2>
+                <p class="text-muted mx-auto" style="max-width: 750px;">
+                    Different farming techniques cater to varying land sizes, financial resources, and market demands.
+                    Explore key agricultural systems used worldwide.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 shadow-sm farming-method-card">
+                        <img src="./assets/img/Planning Your Crop Details bg-1.jpg" class="card-img-top"
+                            alt="Intensive Farming">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title fw-bold text-dark">Intensive Farming</h5>
+                            <p class="card-text text-muted flex-grow-1">
+                                Maximizes crop yield on smaller land areas using high inputs of labor, fertilizers, and
+                                modern machinery.
+                            </p>
+                            <a href="#" class="btn btn-outline-success rounded-pill px-4 mt-2 align-self-center">See
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 shadow-sm farming-method-card">
+                        <img src="./assets/img/Planning Your Crop Details bg-2.jpg" class="card-img-top"
+                            alt="Extensive Farming">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title fw-bold text-dark">Extensive Farming</h5>
+                            <p class="card-text text-muted flex-grow-1">
+                                Practiced on large land areas with lower input density, relying more on natural soil
+                                fertility and climate.
+                            </p>
+                            <a href="#" class="btn btn-outline-success rounded-pill px-4 mt-2 align-self-center">See
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 shadow-sm farming-method-card">
+                        <img src="./assets/img/Planning Your Farming Guides bg-3.jpg" class="card-img-top"
+                            alt="Organic Farming">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title fw-bold text-dark">Organic Farming</h5>
+                            <p class="card-text text-muted flex-grow-1">
+                                Focuses on sustainable food production without synthetic chemical pesticides or
+                                bioengineered fertilizers.
+                            </p>
+                            <a href="#" class="btn btn-outline-success rounded-pill px-4 mt-2 align-self-center">See
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 shadow-sm farming-method-card">
+                        <img src="./assets/img/Planning Your Crop Details bg-4.jpg" class="card-img-top"
+                            alt="Mixed Farming">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h5 class="card-title fw-bold text-dark">Mixed Farming</h5>
+                            <p class="card-text text-muted flex-grow-1">
+                                Combines crop cultivation with livestock rearing on the same farm to diversify income
+                                and recycle nutrients.
+                            </p>
+                            <a href="#" class="btn btn-outline-success rounded-pill px-4 mt-2 align-self-center">See
+                                More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section Start -->
+    <footer id="footer-section" class="">
+        <!-- Custom Footer -->
+        <div class="bg-dark text-white py-4 border-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <!-- Left -->
+                    <div class="col-lg-4 text-center text-lg-start mb-2 mb-lg-0">
+                        <a href="#" class="text-secondary text-decoration-none me-3">
+                            <i class="fas fa-phone"></i>&copy; 2026 Blooming Oasis. All rights reserved.
+                        </a><br>
+                        <a href="#" class="text-secondary text-decoration-none me-3">Terms of
+                            Service</a>
+                        <a href="#" class="text-secondary text-decoration-none">Privacy Policy</a>
+                    </div>
+
+                    <!-- Center -->
+                    <div class="col-lg-4 text-secondary text-center mb-2 mb-lg-0">
+                        <i class="fas fa-calendar-alt"></i>
+                        <span id="date"></span>
+                        |
+                        <i class="fas fa-clock"></i>
+                        <span id="time"></span>
+                    </div>
+
+                    <!-- Right -->
+                    <div
+                        class="col-lg-4 d-flex justify-content-center justify-content-lg-end align-items-center gap-3 fs-5">
+                        <a href="https://instagram.com" target="_blank" class="text-secondary hover-white"
+                            aria-label="Instagram">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com" target="_blank" class="text-secondary hover-white"
+                            aria-label="Facebook">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://pinterest.com" target="_blank" class="text-secondary hover-white"
+                            aria-label="Pinterest">
+                            <i class="bi bi-pinterest"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
